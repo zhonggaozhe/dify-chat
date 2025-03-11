@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>对话聊天室</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked@4.0.12/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <button id="new-conversation">新建对话</button>
+            <div class="history" id="history-list"></div>
+        </div>
+        <div class="chat-container">
+            <div class="chat-header">AI 聊天室</div>
+            <div class="chat-messages" id="chat-messages"></div>
+            <div class="input-area">
+                <input type="text" id="message-input" placeholder="输入您的消息...">
+                <button id="send-button">发送</button>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
